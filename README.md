@@ -48,15 +48,15 @@ pip install torch transformers datasets peft accelerate bitsandbytes safetensors
 
 ## Training Configuration
 
-| Hyperparameter        | Value       |
-|-----------------------|-------------|
-| Learning Rate         | 2e-4        |
-| Batch Size            | 4           |
-| Gradient Accumulation | 2           |
-| Epochs                | 3           |
-| LoRA Rank (r)         | 8           |
-| LoRA Alpha            | 16          |
-| Max Sequence Length   | 512         |
+| Hyperparameter        | Value |
+| --------------------- | ----- |
+| Learning Rate         | 2e-4  |
+| Batch Size            | 4     |
+| Gradient Accumulation | 2     |
+| Epochs                | 3     |
+| LoRA Rank (r)         | 8     |
+| LoRA Alpha            | 16    |
+| Max Sequence Length   | 512   |
 
 ## Results
 
@@ -68,7 +68,8 @@ Example outputs from the fine-tuned model:
 **A**: Hypertension is typically treated through lifestyle modifications and medications. Lifestyle changes include reducing salt intake, regular exercise, maintaining a healthy weight, and limiting alcohol. Common medications include ACE inhibitors, ARBs, calcium channel blockers, and diuretics. Treatment plans are tailored to individual patient needs.
 
 ## Demo
-[![Demo](demo.png)]
+
+[![Demo](demo.gif)]
 
 ## License
 
