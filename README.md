@@ -69,7 +69,7 @@ Example outputs from the fine-tuned model:
 
 ## Demo
 
-[![Demo](demo.gif)]
+![Demo](demo.gif)
 
 ## License
 
